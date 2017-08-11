@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 /**
  * Variables are written to and read from session via this class.
  */
-class SocialAPIDataHandler {
+abstract class SocialApiDataHandler {
   protected $session;
   protected $sessionPrefix;
 
